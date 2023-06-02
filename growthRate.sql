@@ -15,4 +15,5 @@ FROM
   `I_CID_03.order`
 
 --ANALYSIS--
--- The value of the voucher is very influential on the increase in customers.As you can see from the results, the number of newcomers with 25% vouchers decreased by 86% percent compared to newcomers with 50% vouchers.
+/* The value of the voucher is very influential on the increase in customers.
+As you can see from the results, the number of newcomers with 25% vouchers decreased by 86% percent compared to newcomers with 50% vouchers.*/
