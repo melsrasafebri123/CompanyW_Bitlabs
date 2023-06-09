@@ -2,31 +2,24 @@
 Bitlabs provides a dataset from company W for us to use for analysis.
 - Contributors : Melsra Safebri (Me)
 ## 1. Case Overview
-There is a change on the welcome discount voucher value from 50% to 25% initially. Please provide some analysis on the impacts of the welcome discount voucher value to the performance of Mass Coffee app.
+The company wants to know the impact of providing a welcome discount voucher with a value of 50% and 25% on application performance.
 ## 2. Dataset
-There are 1 dataset that i can't give you because it's forbidden by the company: 
+The company only provides 1 dataset and is confidential
 - bitlabs-dab.I-CID-03.order
 ## 3. File Description
 ### a. [Customers_byTransDate.sql](https://github.com/melsrasafebri123/CompanyW_Bitlabs/blob/main/Customers_byTransDate.sql)
-Calculate our Employee Retention Rate from 2010 to 2011 by dividing the total number of active employees at the end of 2011 with the total number of employees from the beginning of 2010. Compare the number with our previous retention rate 2009 to 2010. 
+Counting the number of customers using 50% or 25% vouchers based on the order of the transaction date.
 ### b. [customers_custId.sql](https://github.com/melsrasafebri123/CompanyW_Bitlabs/blob/main/customers_custId.sql)
-Calculate our Company Growth Rate from 2010 to 2011 by dividing the total number of active employees at the end of 2011 with the total number of active employees from the end of 2010. Compare the number with our previous growth rate from 2009 to 2010.
+Counting the number of customers based on the voucher that they used.
 ### c. [growthRate.sql](https://github.com/melsrasafebri123/CompanyW_Bitlabs/blob/main/growthRate.sql)
-We’re going to launch a new tenure-based reward program in 2012. Only those who stayed until the end of 2011 will be eligible for this program. Calculate the total budget that we will have to allocate for this program with details as stated below (p.s. Each employee will be categorized into based on their tenure by the time the 2011 data was recorded).
-1. Tenure group 0 - 5 years: $100 / person
-2. Tenure group 6 - 10 years: $200 / person
-3. Tenure group 11 - 15 years: $300 / person
-4. Tenure group 15 years & above: $500 / person
+Calculating the increase in the development of the number of buyers with 50% and 25% vouchers
 ### d. [retentionRate.sql](https://github.com/melsrasafebri123/CompanyW_Bitlabs/blob/main/retentionRate.sql)
-In terms of hiring, we wanted to ensure that we maintain roughly equal number of male & female active employees across age group:
-1. Below 30 years
-2. 31 - 40 years
-3. 41 - 50 years
-4. 51 - 60 years
-5. 60 years and above
+Calculate the retention rate by subtracting the number of end customers and new customers then dividing by the beggining customers
 ### e. [repurchase.sql](https://github.com/melsrasafebri123/CompanyW_Bitlabs/blob/main/repurchase.sql)
-To make an informed decision in regards to manpower planning, figure out what are the Top 3 Department & City in terms of hiring (based on number of new joiners).
+Checking whether buyers repurchase by looking at the number of buyers per week
 ## 4. Visualization
-![Viz_CompanyY]()
+The company deleted the dataset so that the data does not appear on the visualization
+![Viz_CompanyW](https://github.com/melsrasafebri123/CompanyW_Bitlabs/blob/main/Viz_Company%20W.jpeg)
 ## 5. Summary
+There are impact for the welcome discount voucher especially on the number of customers
 # THANK YOU
